@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;;
+}
+
+.container {
+    background-color: #1f2937;
+    /* justify-content: space-around;
+    align-items: center; */
+    padding: 10px;
+  
+    
+
+
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+   
+}
+
+/* this website is awesome and image */
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    
+}
+
+/* .container .header .img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: #3882f6;
+} */
+
+
+/* boxes and some random information */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+span {
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+
+}
+
+
+.flex-container .img {
+    max-height: 350px;
+    max-width: 250px;
+   
+}
+
+.box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* quote section */
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 250px;
+
+}
+
+/* call to action section */
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    height: 200px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.action button {
+    font-size: 18px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
